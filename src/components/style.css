@@ -1,0 +1,53 @@
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: peru;
+  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+
+img {
+  position: relative;
+  /* margin-top: 20px;
+  margin-left: 140px; */
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .icons {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+  }
+
+
+
+  .sigmail {
+    display: none;
+  }
+
+  .sidebar {
+    height: auto;
+
+    flex-basis: 50%;
+  }
+
+  .container {
+    flex-basis: 50%;
+  }
+
+  .px-12 {
+    padding: 0rem;
+  }
+
+  img {
+
+    position: relative;
+  }
+}

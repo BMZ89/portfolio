@@ -1,0 +1,11 @@
+/* .container {
+    background-image: url(../assets/images/welcome.jpg);
+
+} */
+
+.hello {
+
+    display: flex;
+    align-items: baseline;
+
+}
