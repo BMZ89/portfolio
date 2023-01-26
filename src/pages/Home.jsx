@@ -4,7 +4,7 @@ import style from "../pages/Homestyle.css";
 const Home = () => {
   return (
     <div className="hello flex flex-col ">
-      <div className="text-center">
+      <div className="animate-spin animate-bounce hover:animate-pulse">
         <img src={img} alt="welcome photo" />
       </div>
       <div className="pt-10 text-center">

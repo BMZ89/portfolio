@@ -6,7 +6,6 @@ const Layout = () => {
     <div className="flex justify-between gap-5">
       <Sidebar />
 
-      {/* all the nested element will be displayed here */}
       <div className="container mx-auto px-12">
         <Outlet />
       </div>

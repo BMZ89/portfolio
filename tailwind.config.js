@@ -11,8 +11,14 @@ module.exports = {
         'hello':'url("../src/assets/images/welcome.jpg")',
       },
       animation : {
-bounce : 'bounce 2s',
+bounce : 'bounce 20s',
       },
+      animation: {
+        pulse: 'pulse 12s  ',
+      },
+      animation: {
+        spin: 'spin 20s ',
+      }
     },
   },
   plugins: [],

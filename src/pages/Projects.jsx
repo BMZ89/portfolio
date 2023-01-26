@@ -1,24 +1,21 @@
 import React, { Component } from "react";
 import proto from "../assets/images/proto.png";
+import style from "../components/style.css";
 
 const Projects = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center animate-bounce w-full mb-20">
+          <div className="flex flex-col text-center  w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 ">
               My projects
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
-            </p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
           </div>
-          <div className="flex flex-wrap -m-2 animate-bounce">
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <div className="flex flex-wrap -m-2 ">
+            <div className="  p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="blugoon h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -39,7 +36,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className="blugoon h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -61,7 +58,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className=" blugoon h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -83,7 +80,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className="sound h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -106,7 +103,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className=" quotes h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -130,7 +127,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className="accounts h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
@@ -154,7 +151,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <div className="calculator h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
